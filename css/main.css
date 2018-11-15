@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+  background-color: #f0eee8;
+  font-family: Georgia, serif;
+  line-height: 1.5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
+}
+
+.btn {
+  color: white;
+  background-color: #785439;
+}
+
+.btn-wrap {
+  text-align: center;
+  margin: 1rem;
+}
+
+.link-card h2 {
+  font-size: 1.5rem;
+  font-family: Dosis, sans-serif;
+  margin: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+dl {
+  font-size: .875rem;
+  padding: 1rem;
+  line-height: 1.5;
+  border-top: 2px solid #9a816d;
+  margin: 1rem;
+}
+
+dt {
+  float: left;
+}
+
+dd {
+  text-align: left;
+  margin-left: 8em;
+  font-style: italic;
+}
+
+span {
+  font-size: 1.125rem;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: .4em .75em .5em;
+  display: inline-block;
+}
+
+.link-card {
+  text-decoration: none;
+  color: #512200;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+}
+
+div {
+  text-align: center;
+  border-top: 2px solid #9a816d;
+  padding: 1rem;
+  margin: 1rem;
+}
